@@ -36,7 +36,7 @@
 ## System Architecture
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/ivalenzuelan/pairtrading-framework/main/images/flow.png"
+    src="https://raw.githubusercontent.com/ivalenzuelan/pairtrading-framework/tree/main/images/flow.png"
     alt="Framework Diagram"
     width="650">
 </p>
