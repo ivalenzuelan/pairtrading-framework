@@ -36,7 +36,7 @@
 ---
 
 ## System Architecture
-![Framework Diagram](https://raw.githubusercontent.com/ivalenzuelan/pairtrading-framework/images/flow.png)  
+![Framework Diagram](https://raw.github.com/ivalenzuelan/pairtrading-framework/images/flow.png)  
 *Modular implementation with data flow*
 
 ---
