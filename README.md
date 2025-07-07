@@ -49,7 +49,7 @@
   <img
     src="https://github.com/ivalenzuelan/pairtrading-framework/blob/main/images/modular.png"
     alt="Files Diagram"
-    width="650">
+    width="850">
 </p>
 
 <p align="center"><em>Modular implementation with data flow</em></p>
