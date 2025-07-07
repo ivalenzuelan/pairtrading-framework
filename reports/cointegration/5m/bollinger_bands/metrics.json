@@ -1,0 +1,16 @@
+{
+  "cumulative_return": -0.02692788105754118,
+  "annualized_volatility": 0.0006408337425155221,
+  "sharpe_ratio": -3.2387621948509833,
+  "max_drawdown": 0.027013382135598733,
+  "total_trades": 30346,
+  "win_rate": 0.5998154616753444,
+  "avg_win": 195.5124278659655,
+  "avg_loss": -223.8847811328356,
+  "profit_factor": 0.8732725238253859,
+  "final_value": 973072.1189424588,
+  "initial_value": 1000000,
+  "stop_loss_count": 15067,
+  "time_stop_count": 0,
+  "strategy": "bollinger_bands"
+}

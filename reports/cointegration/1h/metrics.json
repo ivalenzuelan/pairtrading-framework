@@ -1,0 +1,15 @@
+{
+  "cumulative_return": -0.0010845932484107035,
+  "annualized_volatility": 0.0006815305777567961,
+  "sharpe_ratio": -1.4417351860912857,
+  "max_drawdown": 0.0011058007550782058,
+  "total_trades": 799,
+  "win_rate": 0.07384230287859825,
+  "avg_win": 782.8569331486815,
+  "avg_loss": -940.81644758358,
+  "profit_factor": 0.8321037915093786,
+  "final_value": 998915.4067515893,
+  "initial_value": 1000000,
+  "stop_loss_count": 395,
+  "time_stop_count": 3
+}

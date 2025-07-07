@@ -1,0 +1,1990 @@
+{
+  "summary": {
+    "total_windows": 21,
+    "total_positions": 60,
+    "total_pnl": -474.86,
+    "total_fees": 48.0,
+    "net_pnl": -522.86,
+    "total_return": -0.0045,
+    "win_rate": 0.4286,
+    "position_success_rate": 0.4833,
+    "avg_pnl_per_window": -22.61,
+    "avg_positions_per_window": 2.86,
+    "max_profit": 130.55,
+    "max_drawdown": -171.84,
+    "sharpe_ratio": -0.284
+  },
+  "method_performance": {
+    "dtw_robust_zscore": {
+      "total_pnl": -257.79245544477686,
+      "total_fees": 12.000000000000002,
+      "positions": 15,
+      "winning_positions": 7,
+      "returns": [
+        -54.8782907903597,
+        -22.84439105420775,
+        -53.678358939274204,
+        32.409966881711426,
+        21.322186760018145,
+        21.64430736395837,
+        -2.689597177239926,
+        21.294874429757005,
+        -94.78066443160596,
+        -93.56881466119283,
+        6.781230064762608,
+        -70.83553709548899,
+        -2.174592703472963,
+        2.63666339624145,
+        31.56856251161653
+      ],
+      "avg_return_per_trade": -17.186163696318456,
+      "win_rate": 0.4666666666666667
+    },
+    "dtw_minmax": {
+      "total_pnl": -266.07315046789927,
+      "total_fees": 9.6,
+      "positions": 12,
+      "winning_positions": 5,
+      "returns": [
+        -54.8782907903597,
+        -22.84439105420775,
+        32.409966881711426,
+        21.64430736395837,
+        -2.689597177239926,
+        21.294874429757005,
+        -94.78066443160596,
+        -93.56881466119283,
+        6.781230064762608,
+        -101.63223757481695,
+        -2.174592703472963,
+        24.36505918480743
+      ],
+      "avg_return_per_trade": -22.172762538991606,
+      "win_rate": 0.4166666666666667
+    },
+    "stochastic_differential_residual": {
+      "total_pnl": -15.369976303918548,
+      "total_fees": 14.400000000000004,
+      "positions": 18,
+      "winning_positions": 8,
+      "returns": [
+        -54.8782907903597,
+        -5.737042724444808,
+        49.597838524292,
+        -22.982198532437682,
+        -42.43744847094371,
+        27.837107382821745,
+        27.78617509839951,
+        33.64533426798853,
+        -18.248504217751258,
+        25.287211865100193,
+        30.556828041151363,
+        -61.03268882476784,
+        -0.7006285151984806,
+        6.781230064762608,
+        24.36505918480743,
+        -2.1178773678720058,
+        -22.295122788574492,
+        -10.79695850089196
+      ],
+      "avg_return_per_trade": -0.8538875724399193,
+      "win_rate": 0.4444444444444444
+    },
+    "volatility_clustering_5d": {
+      "total_pnl": -236.85967418621922,
+      "total_fees": 13.600000000000003,
+      "positions": 17,
+      "winning_positions": 9,
+      "returns": [
+        -54.8782907903597,
+        25.303641375103922,
+        -22.982198532437682,
+        33.64533426798853,
+        -18.248504217751258,
+        25.287211865100193,
+        22.19732896417806,
+        -61.03268882476784,
+        -94.78066443160596,
+        6.781230064762608,
+        -101.63223757481695,
+        21.650821567460135,
+        -70.83553709548899,
+        2.63666339624145,
+        27.781033963238848,
+        24.36505918480743,
+        -2.1178773678720058
+      ],
+      "avg_return_per_trade": -13.932922010954073,
+      "win_rate": 0.5294117647058824
+    },
+    "volatility_clustering_10d": {
+      "total_pnl": -64.74841402979834,
+      "total_fees": 12.000000000000002,
+      "positions": 15,
+      "winning_positions": 8,
+      "returns": [
+        -54.8782907903597,
+        -5.737042724444808,
+        25.303641375103922,
+        -22.982198532437682,
+        27.78617509839951,
+        33.64533426798853,
+        -18.248504217751258,
+        21.294874429757005,
+        -28.686328249797647,
+        6.781230064762608,
+        21.650821567460135,
+        -70.83553709548899,
+        27.781033963238848,
+        24.36505918480743,
+        -51.98868237103624
+      ],
+      "avg_return_per_trade": -4.316560935319889,
+      "win_rate": 0.5333333333333333
+    },
+    "johansen_trace": {
+      "total_pnl": -156.22597413484843,
+      "total_fees": 12.800000000000002,
+      "positions": 16,
+      "winning_positions": 8,
+      "returns": [
+        -23.490891046429162,
+        21.192378628225427,
+        -3.556313033316793,
+        -20.425609545847077,
+        28.851481812618875,
+        -5.074522482858692,
+        21.294874429757005,
+        -94.78066443160596,
+        -93.56881466119283,
+        9.89651101271038,
+        23.74171058957716,
+        8.594567742054021,
+        24.28520792462291,
+        21.743154798511373,
+        -49.88135601763628,
+        -25.04768985403879
+      ],
+      "avg_return_per_trade": -9.764123383428027,
+      "win_rate": 0.5
+    },
+    "johansen_max_eigen": {
+      "total_pnl": -112.75226978145264,
+      "total_fees": 12.800000000000002,
+      "positions": 16,
+      "winning_positions": 9,
+      "returns": [
+        -23.490891046429162,
+        2.333997191973465,
+        21.192378628225427,
+        -3.556313033316793,
+        -20.425609545847077,
+        28.851481812618875,
+        -5.074522482858692,
+        21.294874429757005,
+        -94.78066443160596,
+        -93.56881466119283,
+        9.89651101271038,
+        23.74171058957716,
+        8.594567742054021,
+        24.28520792462291,
+        13.00150594229739,
+        -25.04768985403879
+      ],
+      "avg_return_per_trade": -7.04701686134079,
+      "win_rate": 0.5625
+    },
+    "volatility_clustering_20d": {
+      "total_pnl": 58.53530553133144,
+      "total_fees": 9.6,
+      "positions": 12,
+      "winning_positions": 8,
+      "returns": [
+        -5.737042724444808,
+        25.303641375103922,
+        27.78617509839951,
+        33.64533426798853,
+        22.19732896417806,
+        -15.324414038094126,
+        6.781230064762608,
+        21.650821567460135,
+        27.781033963238848,
+        24.36505918480743,
+        -51.98868237103624,
+        -57.92517982103242
+      ],
+      "avg_return_per_trade": 4.877942127610953,
+      "win_rate": 0.6666666666666666
+    },
+    "euclidean_distance": {
+      "total_pnl": -287.4129402210656,
+      "total_fees": 10.4,
+      "positions": 13,
+      "winning_positions": 5,
+      "returns": [
+        -22.84439105420775,
+        -53.678358939274204,
+        21.64430736395837,
+        -20.425609545847077,
+        28.851481812618875,
+        -2.689597177239926,
+        21.294874429757005,
+        -94.78066443160596,
+        -93.56881466119283,
+        6.781230064762608,
+        -101.63223757481695,
+        -2.174592703472963,
+        25.80943219549521
+      ],
+      "avg_return_per_trade": -22.108687709312736,
+      "win_rate": 0.38461538461538464
+    },
+    "dtw_log_scale": {
+      "total_pnl": -40.25183210433913,
+      "total_fees": 15.200000000000005,
+      "positions": 19,
+      "winning_positions": 11,
+      "returns": [
+        -53.678358939274204,
+        25.303641375103922,
+        27.78617509839951,
+        32.409966881711426,
+        21.192378628225427,
+        -55.57585608064793,
+        22.21694904509157,
+        28.851481812618875,
+        30.556828041151363,
+        21.294874429757005,
+        -0.7006285151984806,
+        6.781230064762608,
+        -57.77053318894223,
+        -2.174592703472963,
+        23.74171058957716,
+        21.743154798511373,
+        -22.295122788574492,
+        -57.92517982103242,
+        -52.00995083210666
+      ],
+      "avg_return_per_trade": -2.1185174791757437,
+      "win_rate": 0.5789473684210527
+    },
+    "dtw_standard_zscore": {
+      "total_pnl": -181.31218756636696,
+      "total_fees": 7.199999999999999,
+      "positions": 9,
+      "winning_positions": 4,
+      "returns": [
+        28.851481812618875,
+        -2.689597177239926,
+        21.294874429757005,
+        -94.78066443160596,
+        -93.56881466119283,
+        6.781230064762608,
+        -70.83553709548899,
+        -2.174592703472963,
+        25.80943219549521
+      ],
+      "avg_return_per_trade": -20.145798618485216,
+      "win_rate": 0.4444444444444444
+    }
+  },
+  "method_comparison": {
+    "dtw_robust_zscore_vs_dtw_minmax": {
+      "t_statistic": 0.2669223309813327,
+      "p_value": 0.7919883359716976,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_robust_zscore_vs_stochastic_differential_residual": {
+      "t_statistic": -1.1809881846674293,
+      "p_value": 0.2488534489775578,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_robust_zscore_vs_volatility_clustering_5d": {
+      "t_statistic": -0.2028109805203944,
+      "p_value": 0.8406690545959274,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_robust_zscore_vs_volatility_clustering_10d": {
+      "t_statistic": -0.8764708802753953,
+      "p_value": 0.3886828024298491,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_robust_zscore_vs_johansen_trace": {
+      "t_statistic": -0.48532010764131345,
+      "p_value": 0.6312185592655358,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_robust_zscore_vs_johansen_max_eigen": {
+      "t_statistic": -0.6754728183214861,
+      "p_value": 0.5050021362556621,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_robust_zscore_vs_volatility_clustering_20d": {
+      "t_statistic": -1.4963056211561117,
+      "p_value": 0.1472636144220435,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_robust_zscore_vs_euclidean_distance": {
+      "t_statistic": 0.2777989470330563,
+      "p_value": 0.7834708255403423,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_robust_zscore_vs_dtw_log_scale": {
+      "t_statistic": -1.064935056211019,
+      "p_value": 0.29663025428499973,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_robust_zscore_vs_dtw_standard_zscore": {
+      "t_statistic": 0.14311516253025436,
+      "p_value": 0.8880802777652338,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_minmax_vs_stochastic_differential_residual": {
+      "t_statistic": -1.2940427323988684,
+      "p_value": 0.21312361500272559,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_minmax_vs_volatility_clustering_5d": {
+      "t_statistic": -0.44854075438425,
+      "p_value": 0.6581103543206385,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_minmax_vs_volatility_clustering_10d": {
+      "t_statistic": -1.0382806120990153,
+      "p_value": 0.3123204499949531,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_minmax_vs_johansen_trace": {
+      "t_statistic": -0.7002138552782678,
+      "p_value": 0.49172098900601124,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_minmax_vs_johansen_max_eigen": {
+      "t_statistic": -0.8654219678345753,
+      "p_value": 0.397224260491311,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_minmax_vs_volatility_clustering_20d": {
+      "t_statistic": -1.5680597275162114,
+      "p_value": 0.13390140670244957,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_minmax_vs_euclidean_distance": {
+      "t_statistic": -0.003227420445971824,
+      "p_value": 0.9974532109804065,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_minmax_vs_dtw_log_scale": {
+      "t_statistic": -1.197713366232835,
+      "p_value": 0.24677273477574402,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_minmax_vs_dtw_standard_zscore": {
+      "t_statistic": -0.08994709475436866,
+      "p_value": 0.9293643610741059,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "stochastic_differential_residual_vs_volatility_clustering_5d": {
+      "t_statistic": 0.9756443365212482,
+      "p_value": 0.3374537382690892,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "stochastic_differential_residual_vs_volatility_clustering_10d": {
+      "t_statistic": 0.2947562107365462,
+      "p_value": 0.7702924398411825,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "stochastic_differential_residual_vs_johansen_trace": {
+      "t_statistic": 0.7127485136201074,
+      "p_value": 0.481745604379629,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "stochastic_differential_residual_vs_johansen_max_eigen": {
+      "t_statistic": 0.5095613881710007,
+      "p_value": 0.6141550124144839,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "stochastic_differential_residual_vs_volatility_clustering_20d": {
+      "t_statistic": -0.48470718978440497,
+      "p_value": 0.6322873095368845,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "stochastic_differential_residual_vs_euclidean_distance": {
+      "t_statistic": 1.3824233853407988,
+      "p_value": 0.18253207348672934,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "stochastic_differential_residual_vs_dtw_log_scale": {
+      "t_statistic": 0.11421673204702748,
+      "p_value": 0.9097199717007856,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "stochastic_differential_residual_vs_dtw_standard_zscore": {
+      "t_statistic": 1.0310947667552588,
+      "p_value": 0.3242430704461584,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_5d_vs_volatility_clustering_10d": {
+      "t_statistic": -0.673178918874517,
+      "p_value": 0.5060841771418128,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_5d_vs_johansen_trace": {
+      "t_statistic": -0.2795797303283489,
+      "p_value": 0.7816668330899625,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_5d_vs_johansen_max_eigen": {
+      "t_statistic": -0.4709623870861588,
+      "p_value": 0.6410102133674025,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_5d_vs_volatility_clustering_20d": {
+      "t_statistic": -1.3109514261562745,
+      "p_value": 0.20091604220326925,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_5d_vs_euclidean_distance": {
+      "t_statistic": 0.4701146381860883,
+      "p_value": 0.6423171236898704,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_5d_vs_dtw_log_scale": {
+      "t_statistic": -0.8601705763508636,
+      "p_value": 0.3965044669893424,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_5d_vs_dtw_standard_zscore": {
+      "t_statistic": 0.30456585806008396,
+      "p_value": 0.7649349253664625,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_10d_vs_johansen_trace": {
+      "t_statistic": 0.40532446520989335,
+      "p_value": 0.6882269686095173,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_10d_vs_johansen_max_eigen": {
+      "t_statistic": 0.20815370406865277,
+      "p_value": 0.836564661598248,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_10d_vs_volatility_clustering_20d": {
+      "t_statistic": -0.7175509370649891,
+      "p_value": 0.47980108295516644,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_10d_vs_euclidean_distance": {
+      "t_statistic": 1.1018446772463935,
+      "p_value": 0.28269437686894255,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_10d_vs_dtw_log_scale": {
+      "t_statistic": -0.18132465449002688,
+      "p_value": 0.8573175213894592,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_10d_vs_dtw_standard_zscore": {
+      "t_statistic": 0.8180494359426369,
+      "p_value": 0.428653655146393,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "johansen_trace_vs_johansen_max_eigen": {
+      "t_statistic": -0.19694148117910293,
+      "p_value": 0.8452042059574716,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "johansen_trace_vs_volatility_clustering_20d": {
+      "t_statistic": -1.0839530357002278,
+      "p_value": 0.28837635701702147,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "johansen_trace_vs_euclidean_distance": {
+      "t_statistic": 0.7390239023995664,
+      "p_value": 0.46728387628726487,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "johansen_trace_vs_dtw_log_scale": {
+      "t_statistic": -0.5948105473989592,
+      "p_value": 0.5563803919597408,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "johansen_trace_vs_dtw_standard_zscore": {
+      "t_statistic": 0.5238884229748121,
+      "p_value": 0.6088392138804097,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "johansen_max_eigen_vs_volatility_clustering_20d": {
+      "t_statistic": -0.9042839635345153,
+      "p_value": 0.3742472113742873,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "johansen_max_eigen_vs_euclidean_distance": {
+      "t_statistic": 0.9158534653576468,
+      "p_value": 0.3694168426700689,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "johansen_max_eigen_vs_dtw_log_scale": {
+      "t_statistic": -0.3937680238793037,
+      "p_value": 0.6964456606111452,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "johansen_max_eigen_vs_dtw_standard_zscore": {
+      "t_statistic": 0.6683297372061495,
+      "p_value": 0.5155631853538138,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_20d_vs_euclidean_distance": {
+      "t_statistic": 1.665405315843009,
+      "p_value": 0.11081733863569664,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_20d_vs_dtw_log_scale": {
+      "t_statistic": 0.5735970566896579,
+      "p_value": 0.5712578251002376,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "volatility_clustering_20d_vs_dtw_standard_zscore": {
+      "t_statistic": 1.2900641007982394,
+      "p_value": 0.22048469509335508,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "euclidean_distance_vs_dtw_log_scale": {
+      "t_statistic": -1.2762602838796577,
+      "p_value": 0.21609193431624263,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "euclidean_distance_vs_dtw_standard_zscore": {
+      "t_statistic": -0.09027211707010391,
+      "p_value": 0.9291488105393936,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    },
+    "dtw_log_scale_vs_dtw_standard_zscore": {
+      "t_statistic": 0.9514310894222157,
+      "p_value": 0.36058129831313945,
+      "significant_1%": "False",
+      "significant_5%": "False",
+      "significant_10%": "False"
+    }
+  },
+  "detailed_results": {
+    "window_results": [
+      {
+        "window_start": "2024-01-01",
+        "pnl": -54.88,
+        "fees": 0.8,
+        "positions": 1,
+        "success_rate": 0.0,
+        "selected_pairs": [
+          "ETHUSDT-AVAXUSDT",
+          "ETHUSDT-ADAUSDT",
+          "ETHUSDT-SOLUSDT",
+          "ADAUSDT-XRPUSDT",
+          "BNBUSDT-SOLUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-02",
+        "pnl": -56.15,
+        "fees": 4.0,
+        "positions": 5,
+        "success_rate": 0.2,
+        "selected_pairs": [
+          "BTCUSDT-BNBUSDT",
+          "BTCUSDT-DOGEUSDT",
+          "BTCUSDT-ETHUSDT",
+          "ETHUSDT-AVAXUSDT",
+          "ETHUSDT-SOLUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-03",
+        "pnl": -37.78,
+        "fees": 3.2,
+        "positions": 4,
+        "success_rate": 0.5,
+        "selected_pairs": [
+          "ADAUSDT-DOGEUSDT",
+          "ETHUSDT-ADAUSDT",
+          "ETHUSDT-AVAXUSDT",
+          "BTCUSDT-BNBUSDT",
+          "ETHUSDT-XRPUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-04",
+        "pnl": 130.55,
+        "fees": 4.0,
+        "positions": 5,
+        "success_rate": 1.0,
+        "selected_pairs": [
+          "BTCUSDT-DOGEUSDT",
+          "BTCUSDT-ETHUSDT",
+          "BNBUSDT-AVAXUSDT",
+          "DOGEUSDT-AVAXUSDT",
+          "ADAUSDT-XRPUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-05",
+        "pnl": 0.29,
+        "fees": 2.4,
+        "positions": 3,
+        "success_rate": 0.6667,
+        "selected_pairs": [
+          "BTCUSDT-ETHUSDT",
+          "ETHUSDT-AVAXUSDT",
+          "BNBUSDT-AVAXUSDT",
+          "ADAUSDT-XRPUSDT",
+          "BNBUSDT-SOLUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-06",
+        "pnl": -21.8,
+        "fees": 1.6,
+        "positions": 2,
+        "success_rate": 0.0,
+        "selected_pairs": [
+          "ETHUSDT-ADAUSDT",
+          "BTCUSDT-BNBUSDT",
+          "ETHUSDT-XRPUSDT",
+          "ADAUSDT-XRPUSDT",
+          "BNBUSDT-SOLUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-07",
+        "pnl": 55.36,
+        "fees": 3.2,
+        "positions": 4,
+        "success_rate": 0.75,
+        "selected_pairs": [
+          "BNBUSDT-AVAXUSDT",
+          "DOGEUSDT-AVAXUSDT",
+          "ETHUSDT-XRPUSDT",
+          "ADAUSDT-XRPUSDT",
+          "BNBUSDT-SOLUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-08",
+        "pnl": 44.09,
+        "fees": 3.2,
+        "positions": 4,
+        "success_rate": 0.5,
+        "selected_pairs": [
+          "ETHUSDT-AVAXUSDT",
+          "BNBUSDT-AVAXUSDT",
+          "DOGEUSDT-AVAXUSDT",
+          "ETHUSDT-XRPUSDT",
+          "ADAUSDT-XRPUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-09",
+        "pnl": 22.2,
+        "fees": 0.8,
+        "positions": 1,
+        "success_rate": 1.0,
+        "selected_pairs": [
+          "BNBUSDT-AVAXUSDT",
+          "DOGEUSDT-AVAXUSDT",
+          "ADAUSDT-XRPUSDT",
+          "BNBUSDT-XRPUSDT",
+          "BNBUSDT-SOLUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-10",
+        "pnl": -28.69,
+        "fees": 0.8,
+        "positions": 1,
+        "success_rate": 0.0,
+        "selected_pairs": [
+          "ETHUSDT-ADAUSDT",
+          "BNBUSDT-AVAXUSDT",
+          "DOGEUSDT-AVAXUSDT",
+          "ADAUSDT-XRPUSDT",
+          "BNBUSDT-SOLUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-11",
+        "pnl": -171.84,
+        "fees": 3.2,
+        "positions": 4,
+        "success_rate": 0.0,
+        "selected_pairs": [
+          "BTCUSDT-BNBUSDT",
+          "BTCUSDT-DOGEUSDT",
+          "BTCUSDT-ETHUSDT",
+          "DOGEUSDT-AVAXUSDT",
+          "ADAUSDT-XRPUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-12",
+        "pnl": -93.57,
+        "fees": 0.8,
+        "positions": 1,
+        "success_rate": 0.0,
+        "selected_pairs": [
+          "ETHUSDT-ADAUSDT",
+          "ETHUSDT-AVAXUSDT",
+          "DOGEUSDT-AVAXUSDT",
+          "ETHUSDT-SOLUSDT",
+          "ADAUSDT-XRPUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-13",
+        "pnl": -152.62,
+        "fees": 2.4,
+        "positions": 3,
+        "success_rate": 0.3333,
+        "selected_pairs": [
+          "BTCUSDT-BNBUSDT",
+          "BTCUSDT-DOGEUSDT",
+          "BTCUSDT-ETHUSDT",
+          "BNBUSDT-AVAXUSDT",
+          "DOGEUSDT-AVAXUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-14",
+        "pnl": 0,
+        "fees": 0,
+        "positions": 0,
+        "success_rate": 0,
+        "selected_pairs": [
+          "BTCUSDT-DOGEUSDT",
+          "BTCUSDT-ETHUSDT",
+          "ETHUSDT-AVAXUSDT",
+          "BNBUSDT-AVAXUSDT",
+          "DOGEUSDT-AVAXUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-15",
+        "pnl": -41.46,
+        "fees": 3.2,
+        "positions": 4,
+        "success_rate": 0.5,
+        "selected_pairs": [
+          "ETHUSDT-ADAUSDT",
+          "DOGEUSDT-AVAXUSDT",
+          "ADAUSDT-XRPUSDT",
+          "BNBUSDT-SOLUSDT",
+          "BNBUSDT-XRPUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-16",
+        "pnl": 85.73,
+        "fees": 3.2,
+        "positions": 4,
+        "success_rate": 1.0,
+        "selected_pairs": [
+          "ETHUSDT-ADAUSDT",
+          "DOGEUSDT-AVAXUSDT",
+          "ETHUSDT-SOLUSDT",
+          "ADAUSDT-XRPUSDT",
+          "BNBUSDT-SOLUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-17",
+        "pnl": 57.24,
+        "fees": 2.4,
+        "positions": 3,
+        "success_rate": 1.0,
+        "selected_pairs": [
+          "ADAUSDT-DOGEUSDT",
+          "ETHUSDT-AVAXUSDT",
+          "ETHUSDT-ADAUSDT",
+          "DOGEUSDT-AVAXUSDT",
+          "ETHUSDT-XRPUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-18",
+        "pnl": 21.74,
+        "fees": 0.8,
+        "positions": 1,
+        "success_rate": 1.0,
+        "selected_pairs": [
+          "ETHUSDT-AVAXUSDT",
+          "BNBUSDT-AVAXUSDT",
+          "ETHUSDT-XRPUSDT",
+          "ETHUSDT-SOLUSDT",
+          "ADAUSDT-XRPUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-19",
+        "pnl": 36.69,
+        "fees": 2.4,
+        "positions": 3,
+        "success_rate": 0.6667,
+        "selected_pairs": [
+          "ADAUSDT-DOGEUSDT",
+          "ETHUSDT-AVAXUSDT",
+          "ETHUSDT-ADAUSDT",
+          "BTCUSDT-BNBUSDT",
+          "ETHUSDT-XRPUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-20",
+        "pnl": -124.17,
+        "fees": 2.4,
+        "positions": 3,
+        "success_rate": 0.0,
+        "selected_pairs": [
+          "BTCUSDT-ETHUSDT",
+          "ETHUSDT-AVAXUSDT",
+          "BNBUSDT-AVAXUSDT",
+          "ADAUSDT-XRPUSDT",
+          "ETHUSDT-SOLUSDT"
+        ]
+      },
+      {
+        "window_start": "2024-01-21",
+        "pnl": -145.78,
+        "fees": 3.2,
+        "positions": 4,
+        "success_rate": 0.0,
+        "selected_pairs": [
+          "BTCUSDT-DOGEUSDT",
+          "BTCUSDT-ETHUSDT",
+          "BNBUSDT-AVAXUSDT",
+          "ADAUSDT-XRPUSDT",
+          "BNBUSDT-SOLUSDT"
+        ]
+      }
+    ],
+    "position_details": [
+      {
+        "pair": "ETHUSDT-ADAUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-06",
+        "exit_date": "2024-01-10",
+        "pnl": -54.88,
+        "fees": 0.8,
+        "days_held": 4,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -54.08,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_minmax",
+          "stochastic_differential_residual",
+          "volatility_clustering_5d",
+          "volatility_clustering_10d"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-BNBUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-07",
+        "exit_date": "2024-01-12",
+        "pnl": -23.49,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -41.09,
+        "training_methods": [
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-DOGEUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-07",
+        "exit_date": "2024-01-12",
+        "pnl": -5.74,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -33.58,
+        "training_methods": [
+          "stochastic_differential_residual",
+          "volatility_clustering_10d",
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-ETHUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-07",
+        "exit_date": "2024-01-11",
+        "pnl": 49.6,
+        "fees": 0.8,
+        "days_held": 4,
+        "status": "closed",
+        "max_profit": 50.4,
+        "max_drawdown": -16.16,
+        "training_methods": [
+          "stochastic_differential_residual"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-07",
+        "exit_date": "2024-01-12",
+        "pnl": -22.84,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -45.15,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_minmax",
+          "euclidean_distance"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-SOLUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-07",
+        "exit_date": "2024-01-11",
+        "pnl": -53.68,
+        "fees": 0.8,
+        "days_held": 4,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -52.88,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_log_scale",
+          "euclidean_distance"
+        ]
+      },
+      {
+        "pair": "ADAUSDT-DOGEUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-08",
+        "exit_date": "2024-01-09",
+        "pnl": 25.3,
+        "fees": 0.8,
+        "days_held": 1,
+        "status": "closed",
+        "max_profit": 26.1,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "dtw_log_scale",
+          "volatility_clustering_5d",
+          "volatility_clustering_10d",
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-ADAUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-08",
+        "exit_date": "2024-01-13",
+        "pnl": -22.98,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 16.23,
+        "max_drawdown": -22.18,
+        "training_methods": [
+          "stochastic_differential_residual",
+          "volatility_clustering_5d",
+          "volatility_clustering_10d"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-08",
+        "exit_date": "2024-01-13",
+        "pnl": -42.44,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 10.7,
+        "max_drawdown": -41.64,
+        "training_methods": [
+          "stochastic_differential_residual"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-BNBUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-08",
+        "exit_date": "2024-01-13",
+        "pnl": 2.33,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 3.13,
+        "max_drawdown": -30.94,
+        "training_methods": [
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-DOGEUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-09",
+        "exit_date": "2024-01-12",
+        "pnl": 27.84,
+        "fees": 0.8,
+        "days_held": 3,
+        "status": "closed",
+        "max_profit": 28.64,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "stochastic_differential_residual"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-ETHUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-09",
+        "exit_date": "2024-01-10",
+        "pnl": 27.79,
+        "fees": 0.8,
+        "days_held": 1,
+        "status": "closed",
+        "max_profit": 28.59,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "dtw_log_scale",
+          "stochastic_differential_residual",
+          "volatility_clustering_10d",
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-09",
+        "exit_date": "2024-01-11",
+        "pnl": 32.41,
+        "fees": 0.8,
+        "days_held": 2,
+        "status": "closed",
+        "max_profit": 33.21,
+        "max_drawdown": -19.64,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_minmax",
+          "dtw_log_scale"
+        ]
+      },
+      {
+        "pair": "DOGEUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-09",
+        "exit_date": "2024-01-11",
+        "pnl": 21.32,
+        "fees": 0.8,
+        "days_held": 2,
+        "status": "closed",
+        "max_profit": 22.12,
+        "max_drawdown": -11.98,
+        "training_methods": [
+          "dtw_robust_zscore"
+        ]
+      },
+      {
+        "pair": "ADAUSDT-XRPUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-09",
+        "exit_date": "2024-01-12",
+        "pnl": 21.19,
+        "fees": 0.8,
+        "days_held": 3,
+        "status": "closed",
+        "max_profit": 21.99,
+        "max_drawdown": -12.3,
+        "training_methods": [
+          "dtw_log_scale",
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-ETHUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-10",
+        "exit_date": "2024-01-11",
+        "pnl": 33.65,
+        "fees": 0.8,
+        "days_held": 1,
+        "status": "closed",
+        "max_profit": 34.45,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "stochastic_differential_residual",
+          "volatility_clustering_5d",
+          "volatility_clustering_10d",
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-AVAXUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-10",
+        "exit_date": "2024-01-11",
+        "pnl": -55.58,
+        "fees": 0.8,
+        "days_held": 1,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -54.78,
+        "training_methods": [
+          "dtw_log_scale"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-SOLUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-10",
+        "exit_date": "2024-01-13",
+        "pnl": 22.22,
+        "fees": 0.8,
+        "days_held": 3,
+        "status": "closed",
+        "max_profit": 23.02,
+        "max_drawdown": -8.56,
+        "training_methods": [
+          "dtw_log_scale"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-ADAUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-11",
+        "exit_date": "2024-01-16",
+        "pnl": -18.25,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 9.13,
+        "max_drawdown": -18.38,
+        "training_methods": [
+          "stochastic_differential_residual",
+          "volatility_clustering_5d",
+          "volatility_clustering_10d"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-XRPUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-11",
+        "exit_date": "2024-01-16",
+        "pnl": -3.56,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 10.22,
+        "max_drawdown": -13.44,
+        "training_methods": [
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-AVAXUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-12",
+        "exit_date": "2024-01-13",
+        "pnl": 25.29,
+        "fees": 0.8,
+        "days_held": 1,
+        "status": "closed",
+        "max_profit": 26.09,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "stochastic_differential_residual",
+          "volatility_clustering_5d"
+        ]
+      },
+      {
+        "pair": "DOGEUSDT-AVAXUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-12",
+        "exit_date": "2024-01-13",
+        "pnl": 21.64,
+        "fees": 0.8,
+        "days_held": 1,
+        "status": "closed",
+        "max_profit": 22.44,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_minmax",
+          "euclidean_distance"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-XRPUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-12",
+        "exit_date": "2024-01-17",
+        "pnl": -20.43,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 7.44,
+        "max_drawdown": -19.63,
+        "training_methods": [
+          "euclidean_distance",
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "ADAUSDT-XRPUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-12",
+        "exit_date": "2024-01-15",
+        "pnl": 28.85,
+        "fees": 0.8,
+        "days_held": 3,
+        "status": "closed",
+        "max_profit": 29.65,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "dtw_log_scale",
+          "dtw_standard_zscore",
+          "euclidean_distance",
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-AVAXUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-13",
+        "exit_date": "2024-01-16",
+        "pnl": 30.56,
+        "fees": 0.8,
+        "days_held": 3,
+        "status": "closed",
+        "max_profit": 31.36,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "dtw_log_scale",
+          "stochastic_differential_residual"
+        ]
+      },
+      {
+        "pair": "DOGEUSDT-AVAXUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-13",
+        "exit_date": "2024-01-18",
+        "pnl": -2.69,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 5.97,
+        "max_drawdown": -5.22,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_minmax",
+          "dtw_standard_zscore",
+          "euclidean_distance"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-XRPUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-13",
+        "exit_date": "2024-01-18",
+        "pnl": -5.07,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 18.32,
+        "max_drawdown": -9.83,
+        "training_methods": [
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "ADAUSDT-XRPUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-13",
+        "exit_date": "2024-01-15",
+        "pnl": 21.29,
+        "fees": 0.8,
+        "days_held": 2,
+        "status": "closed",
+        "max_profit": 22.09,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_minmax",
+          "dtw_log_scale",
+          "dtw_standard_zscore",
+          "euclidean_distance",
+          "volatility_clustering_10d",
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-SOLUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-14",
+        "exit_date": "2024-01-18",
+        "pnl": 22.2,
+        "fees": 0.8,
+        "days_held": 4,
+        "status": "closed",
+        "max_profit": 23.0,
+        "max_drawdown": -22.31,
+        "training_methods": [
+          "volatility_clustering_5d",
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-ADAUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-15",
+        "exit_date": "2024-01-20",
+        "pnl": -28.69,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -27.89,
+        "training_methods": [
+          "volatility_clustering_10d"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-BNBUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-16",
+        "exit_date": "2024-01-21",
+        "pnl": -15.32,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 13.39,
+        "max_drawdown": -14.52,
+        "training_methods": [
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-DOGEUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-16",
+        "exit_date": "2024-01-21",
+        "pnl": -61.03,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 5.58,
+        "max_drawdown": -60.23,
+        "training_methods": [
+          "stochastic_differential_residual",
+          "volatility_clustering_5d"
+        ]
+      },
+      {
+        "pair": "DOGEUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-16",
+        "exit_date": "2024-01-21",
+        "pnl": -94.78,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 6.62,
+        "max_drawdown": -93.98,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_minmax",
+          "dtw_standard_zscore",
+          "euclidean_distance",
+          "volatility_clustering_5d",
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "ADAUSDT-XRPUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-16",
+        "exit_date": "2024-01-21",
+        "pnl": -0.7,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 1.79,
+        "max_drawdown": -10.7,
+        "training_methods": [
+          "dtw_log_scale",
+          "stochastic_differential_residual"
+        ]
+      },
+      {
+        "pair": "DOGEUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-17",
+        "exit_date": "2024-01-21",
+        "pnl": -93.57,
+        "fees": 0.8,
+        "days_held": 4,
+        "status": "closed",
+        "max_profit": 7.71,
+        "max_drawdown": -92.77,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_minmax",
+          "dtw_standard_zscore",
+          "euclidean_distance",
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-ETHUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-18",
+        "exit_date": "2024-01-23",
+        "pnl": 6.78,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 7.58,
+        "max_drawdown": -3.78,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_minmax",
+          "dtw_log_scale",
+          "dtw_standard_zscore",
+          "euclidean_distance",
+          "stochastic_differential_residual",
+          "volatility_clustering_5d",
+          "volatility_clustering_10d",
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-18",
+        "exit_date": "2024-01-20",
+        "pnl": -57.77,
+        "fees": 0.8,
+        "days_held": 2,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -56.97,
+        "training_methods": [
+          "dtw_log_scale"
+        ]
+      },
+      {
+        "pair": "DOGEUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-18",
+        "exit_date": "2024-01-21",
+        "pnl": -101.63,
+        "fees": 0.8,
+        "days_held": 3,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -100.83,
+        "training_methods": [
+          "dtw_minmax",
+          "euclidean_distance",
+          "volatility_clustering_5d"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-ADAUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-20",
+        "exit_date": "2024-01-24",
+        "pnl": 21.65,
+        "fees": 0.8,
+        "days_held": 4,
+        "status": "closed",
+        "max_profit": 22.45,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "volatility_clustering_5d",
+          "volatility_clustering_10d",
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "DOGEUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-20",
+        "exit_date": "2024-01-21",
+        "pnl": -70.84,
+        "fees": 0.8,
+        "days_held": 1,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -70.04,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_standard_zscore",
+          "volatility_clustering_5d",
+          "volatility_clustering_10d"
+        ]
+      },
+      {
+        "pair": "ADAUSDT-XRPUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-20",
+        "exit_date": "2024-01-25",
+        "pnl": -2.17,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 2.18,
+        "max_drawdown": -7.26,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "dtw_minmax",
+          "dtw_log_scale",
+          "dtw_standard_zscore",
+          "euclidean_distance"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-XRPUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-20",
+        "exit_date": "2024-01-25",
+        "pnl": 9.9,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 10.7,
+        "max_drawdown": -1.6,
+        "training_methods": [
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-ADAUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-21",
+        "exit_date": "2024-01-26",
+        "pnl": 2.64,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 9.97,
+        "max_drawdown": -7.92,
+        "training_methods": [
+          "dtw_robust_zscore",
+          "volatility_clustering_5d"
+        ]
+      },
+      {
+        "pair": "DOGEUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-21",
+        "exit_date": "2024-01-22",
+        "pnl": 27.78,
+        "fees": 0.8,
+        "days_held": 1,
+        "status": "closed",
+        "max_profit": 28.58,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "volatility_clustering_5d",
+          "volatility_clustering_10d",
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-SOLUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-21",
+        "exit_date": "2024-01-25",
+        "pnl": 31.57,
+        "fees": 0.8,
+        "days_held": 4,
+        "status": "closed",
+        "max_profit": 32.37,
+        "max_drawdown": -11.89,
+        "training_methods": [
+          "dtw_robust_zscore"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-SOLUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-21",
+        "exit_date": "2024-01-25",
+        "pnl": 23.74,
+        "fees": 0.8,
+        "days_held": 4,
+        "status": "closed",
+        "max_profit": 24.54,
+        "max_drawdown": -23.0,
+        "training_methods": [
+          "dtw_log_scale",
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "ADAUSDT-DOGEUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-22",
+        "exit_date": "2024-01-27",
+        "pnl": 8.59,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 9.39,
+        "max_drawdown": -5.32,
+        "training_methods": [
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-22",
+        "exit_date": "2024-01-25",
+        "pnl": 24.37,
+        "fees": 0.8,
+        "days_held": 3,
+        "status": "closed",
+        "max_profit": 25.17,
+        "max_drawdown": -17.08,
+        "training_methods": [
+          "dtw_minmax",
+          "stochastic_differential_residual",
+          "volatility_clustering_5d",
+          "volatility_clustering_10d",
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "DOGEUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-22",
+        "exit_date": "2024-01-27",
+        "pnl": 24.29,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 25.09,
+        "max_drawdown": -26.89,
+        "training_methods": [
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-23",
+        "exit_date": "2024-01-24",
+        "pnl": 21.74,
+        "fees": 0.8,
+        "days_held": 1,
+        "status": "closed",
+        "max_profit": 22.54,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "dtw_log_scale",
+          "johansen_trace"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-AVAXUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-24",
+        "exit_date": "2024-01-27",
+        "pnl": 25.81,
+        "fees": 0.8,
+        "days_held": 3,
+        "status": "closed",
+        "max_profit": 26.61,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "dtw_standard_zscore",
+          "euclidean_distance"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-BNBUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-24",
+        "exit_date": "2024-01-29",
+        "pnl": 13.0,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 15.04,
+        "max_drawdown": 0.0,
+        "training_methods": [
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-XRPUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-24",
+        "exit_date": "2024-01-29",
+        "pnl": -2.12,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 0.44,
+        "max_drawdown": -6.89,
+        "training_methods": [
+          "stochastic_differential_residual",
+          "volatility_clustering_5d"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-ETHUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-25",
+        "exit_date": "2024-01-30",
+        "pnl": -22.3,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -21.5,
+        "training_methods": [
+          "dtw_log_scale",
+          "stochastic_differential_residual"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-AVAXUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-25",
+        "exit_date": "2024-01-29",
+        "pnl": -51.99,
+        "fees": 0.8,
+        "days_held": 4,
+        "status": "closed",
+        "max_profit": 9.28,
+        "max_drawdown": -51.19,
+        "training_methods": [
+          "volatility_clustering_10d",
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "ETHUSDT-SOLUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-25",
+        "exit_date": "2024-01-30",
+        "pnl": -49.88,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 9.79,
+        "max_drawdown": -49.08,
+        "training_methods": [
+          "johansen_trace"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-DOGEUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-26",
+        "exit_date": "2024-01-31",
+        "pnl": -25.05,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -24.25,
+        "training_methods": [
+          "johansen_trace",
+          "johansen_max_eigen"
+        ]
+      },
+      {
+        "pair": "BTCUSDT-ETHUSDT",
+        "position_type": "short_long",
+        "entry_date": "2024-01-26",
+        "exit_date": "2024-01-31",
+        "pnl": -10.8,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -20.84,
+        "training_methods": [
+          "stochastic_differential_residual"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-AVAXUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-26",
+        "exit_date": "2024-01-30",
+        "pnl": -57.93,
+        "fees": 0.8,
+        "days_held": 4,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -57.13,
+        "training_methods": [
+          "dtw_log_scale",
+          "volatility_clustering_20d"
+        ]
+      },
+      {
+        "pair": "BNBUSDT-SOLUSDT",
+        "position_type": "long_short",
+        "entry_date": "2024-01-26",
+        "exit_date": "2024-01-31",
+        "pnl": -52.01,
+        "fees": 0.8,
+        "days_held": 5,
+        "status": "closed",
+        "max_profit": 0.0,
+        "max_drawdown": -51.21,
+        "training_methods": [
+          "dtw_log_scale"
+        ]
+      }
+    ]
+  },
+  "config": {
+    "training_days": 5,
+    "testing_days": 1,
+    "buffer_days": 5,
+    "max_pairs_per_window": 5,
+    "initial_capital_per_pair": 1000.0,
+    "trading_fee": 0.0004,
+    "stop_loss_threshold": 0.05,
+    "take_profit_threshold": 0.02
+  }
+}

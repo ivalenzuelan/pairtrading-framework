@@ -1,0 +1,13 @@
+{
+  "cumulative_return": -0.0005898891383812055,
+  "annualized_volatility": 0.0009923535958304423,
+  "sharpe_ratio": -0.04471886991816403,
+  "max_drawdown": 0.0025055552665814488,
+  "total_trades": 750,
+  "win_rate": 0.47733333333333333,
+  "avg_win": 0.09999999999993771,
+  "avg_loss": -0.8999999999999485,
+  "profit_factor": 0.11111111111104825,
+  "final_value": 999410.1108616188,
+  "initial_value": 1000000
+}
