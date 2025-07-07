@@ -1,0 +1,52 @@
+{
+"cryptos" : [
+    "ETHUSDT", "BNBUSDT", "BTCUSDT", "MATICUSDT", "SHIBUSDT", "SANDUSDT", "SOLUSDT", "GALAUSDT", 
+    "XRPUSDT", "AVAXUSDT", "DOTUSDT", "ADAUSDT", "DOGEUSDT", "MANAUSDT", "FTMUSDT", 
+    "NEARUSDT", "TRXUSDT", "FILUSDT", "LINKUSDT", "MBOXUSDT", "LTCUSDT", 
+    "ATOMUSDT", "CTXCUSDT", "CRVUSDT", "EGLDUSDT", "EOSUSDT", "SUSHIUSDT", 
+    "ALICEUSDT", "AXSUSDT", "ICPUSDT"
+],
+  
+    "intervals": ["1m", "5m", "1h"],   
+    "interval": "1h",  
+    "window_days": 30,                      
+    "start_date": "2022-01-01",
+    "end_date":   "2022-03-31",
+  
+    "base_path":     "data/processed",      
+    "output_folder": "results",            
+
+    "methods": ["pearson", "spearman", "cointegration", "distance", "dtw"],
+    "dtw_window_size": 3,                   
+    "rho_min": 0.7,                         
+    "pval_max": 0.05,     
+    "max_workers": 4,                  
+
+    "bollinger_lookback": 5,
+    "bollinger_k": 2,
+    "initial_capital_per_pair": 1000,
+    "fee": 0.0004,
+
+    "distance_scale": 10, 
+    "min_similarity": 0.7,    
+
+    "min_sdr_rank": 0.8,        
+    "min_rows_per_window": 100,
+
+    "min_fb_rank": 0.8,       
+    "min_rows_per_window": 500,
+    
+    "min_hurst_rank": 0.8,
+    "min_rows_per_window": 100,
+
+    "causal": {
+        "max_lag": 4,
+        "alpha": 0.05,
+        "nonlinear_threshold": 0.8,
+        "dtw_threshold": 0.15,
+        "te_threshold": 0.02
+    },
+    "data_dir": "data/processed",     
+    "output_dir": "reports/backtest"
+  }
+  
