@@ -35,31 +35,8 @@
 
 ---
 
-## Performance Highlights
-### 5-minute Interval Results
-| Metric               | Filtered | Unfiltered | Improvement |
-|----------------------|----------|------------|-------------|
-| **Total Return**     | 61.7%    | 46.9%      | **+14.8 pp**|
-| **Sharpe Ratio**     | 3.18     | 2.54       | **+25.2%**  |
-| **Max Drawdown**     | 3.7%     | 5.2%       | **-28.8%**  |
-
-### Optimal Interval Comparison
-| Metric               | 1-min  | 5-min (Optimal) | 60-min |
-|----------------------|--------|-----------------|--------|
-| Total Return         | 52.4%  | **61.7%**       | 14.2%  |
-| Calmar Ratio         | 12.5   | **16.7**        | 1.8    |
-
----
-
-## Key Findings
-- Granger filtering reduces time-expired trades by **42%**
-- Volatility scaling decreases drawdowns by **29-32%**
-- Diebold-Mariano tests confirm outperformance (p < 0.01)
-
----
-
 ## System Architecture
-![Framework Diagram](https://raw.githubusercontent.com/yourusername/repo/main/assets/architecture.png)  
+![Framework Diagram](https://raw.githubusercontent.com/ivalenzuelan/pairtrading-framework/images/flow.png)  
 *Modular implementation with data flow*
 
 ---
