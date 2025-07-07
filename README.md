@@ -44,6 +44,17 @@
 <p align="center"><em>Modular implementation with data flow</em></p>
 
 
+## File Configuration
+<p align="center">
+  <img
+    src="https://github.com/ivalenzuelan/pairtrading-framework/blob/main/images/modular.png"
+    alt="Files Diagram"
+    width="650">
+</p>
+
+<p align="center"><em>Modular implementation with data flow</em></p>
+
+
 ## Next Steps
 1. Extended backtesting (2019-2024)  
 2. Regime-switching model integration  
