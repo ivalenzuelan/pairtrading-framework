@@ -33,13 +33,16 @@
 | Stop-Loss       | \|Z\| > 3.0σ OR 5-day hold |
 | Costs           | 4 bps fee + 5 bps slippage |
 
----
-
 ## System Architecture
-![Framework Diagram](https://raw.github.com/ivalenzuelan/pairtrading-framework/images/flow.png)  
-*Modular implementation with data flow*
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/ivalenzuelan/pairtrading-framework/main/images/flow.png"
+    alt="Framework Diagram"
+    width="650">
+</p>
 
----
+<p align="center"><em>Modular implementation with data flow</em></p>
+
 
 ## Next Steps
 1. Extended backtesting (2019-2024)  
