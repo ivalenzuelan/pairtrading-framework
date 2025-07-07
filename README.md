@@ -52,7 +52,7 @@
     width="450">
 </p>
 
-<p align="center"><em>Modular implementation with data flow</em></p>
+<p align="center"><em>Files Com Explanation</em></p>
 
 
 ## Next Steps
